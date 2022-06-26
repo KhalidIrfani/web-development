@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>first web</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+
+<body>
+
+    <form action="">
+        <h1>Sign in form</h1>
+        <p>Name: <input type="name" name="firstname" placeholder="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            Male <input type="radio" name="gender" id="male"> Female <input type="radio" name="gender" id="female">
+        </fieldset>
+
+        <p> Address: <textarea name="address" id="address" placeholder="write address here" cols="100" rows="6"></textarea></p>
+        <p>Email: <input type="email" name="email" id="email" placeholder="email" required> </p>
+        <p>Password: <input type="password" name="password" id="passsword" required></p>
+        <p> Confirm password: <input type="password" name="password" id="password" required></p>
+        <p>Contact: <input type="text"></p>
+        <p>City:
+            <select name="City_belong" id="city_belong" required>
+                <option value=""> --select a city--</option>
+                <option value="Faisalabad"> Faisalabad</option>
+                <option value="Lahore"> Lahore</option>
+                <option value="Karachi"> Karachi</option>
+                <option value="Okara">Okara</option>
+                <option value="Chistian"> Chistian</option>
+            </select>
+        </p>
+        <p> Postal code: <input type="number" name="number" id="number"></p>
+        <p>
+            Birth date: <input type="date" name="date_birth" id="date_birth">
+        </p>
+
+        <input type="submit" value="signin">
+    </form>
+
+</body>
+
+</html>

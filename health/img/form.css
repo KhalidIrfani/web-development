@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4px 300px;
+    font-size: 17px;
+    background-color: rgb(30, 134, 100);
+}
+
+input[type="name"],
+input[type="address"],
+input[type="email"],
+input[type="password"],
+input[type="confirm password"],
+input[type="number"],
+input[type="date"],
+input[type="text"],
+select,
+textarea {
+    padding: 1px solid #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    margin: 12px;
+}
+
+input[type="submit"] {
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 27px;
+    color: black;
+    background-color: brown;
+    cursor: pointer;
+    margin-left: 110%;
+}
+
+input[type="submit"]:hover {
+    background-color: rosybrown;
+}
+
+@media screen and (orientation:landscape) {
+    body {
+        color: #fff;
+    }
+}

@@ -1,0 +1,58 @@
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    color: black;
+}
+
+li {
+    padding-right: 40px;
+}
+
+ul {
+    margin-right: 150px;
+}
+
+#c1 {
+    height: 80px;
+}
+
+.para111 {
+    position: relative;
+    bottom: 50px;
+    left: 450px;
+}
+
+.para1 {
+    position: relative;
+    right: 200px;
+}
+
+.figure {
+    margin-top: 50px;
+}
+
+#eyes {
+    position: relative;
+    left: 50%;
+    bottom: 50px;
+}
+
+
+/* .butt{
+    position: relative;
+    right:10px;
+} */
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.text-light {
+    word-spacing: 5px;
+}
+
+.imgggg {
+    margin-top: 70px;
+}
